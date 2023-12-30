@@ -75,7 +75,16 @@ html, body {
     }
 /* End of Hover */
 
-#profile, #tools, #contact{
+#profile{
+    background:  url(./assets/images/aboutme.png);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-color: #222831;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#tools, #contact{
     background: #222831;
 }
 
@@ -178,20 +187,6 @@ html, body {
         box-shadow: none;
     }
 /* End of CSS for Whole Timeline */
-
-/* CSS for Story */
-
-
-.myStory{
-background:  url(./assets/images/aboutme.png);
-background-repeat: no-repeat;
-background-position: 0% 100%;
-background-size: contain;
-opacity: 1;
-}
-
-
-
 
 
 /* CSS for Project Section */
