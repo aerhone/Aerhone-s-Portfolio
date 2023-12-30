@@ -399,7 +399,7 @@ footer img{
 }
 
 @media (max-width: 768px){
-    .myStory{
+    #profile{
         background: #222831;
     }
 }
