@@ -23,10 +23,8 @@ html, body {
     .heroContent {
         display: grid;
         position: absolute;
-  
         z-index: 10;
         color: #fff;
-   
         opacity: 0;
         animation: anim 0.75s 1.5s linear forwards;
     }
@@ -34,6 +32,27 @@ html, body {
     .heroContent h1 {
         margin-bottom: 0;
     }
+
+    .navIconsOne{
+        animation: scale .2s;
+        animation-delay: 2s;
+    }
+
+    .navIconsTwo{
+        animation: scale .2s;
+        animation-delay: 2.2s;
+    }
+
+    .navIconsThree{
+        animation: scale .2s;
+        animation-delay: 2.4s;
+    }
+
+    .navIconsFour{
+        animation: scale .2s;
+        animation-delay: 2.6s;
+    }
+    
 
     @keyframes anim {
             from {
@@ -43,20 +62,32 @@ html, body {
                 opacity: 1;
         }
     }
-    @keyframes scaling-hero-anim {
+    /* @keyframes scaling-hero-anim {
             from {
                 transform: scale(1.25);
         }
             to {
                 transform: scale(1.1);
         }
-    }
+    } */
     @keyframes clip-hero-anim {
             from {
                 clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
         }
             to {
                 clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+    }
+
+    @keyframes scale {
+            from {
+            transform: scale(1);
+            
+            
+        }
+            to {
+            transform: scale(1.2);
+            
         }
     }
 
@@ -301,6 +332,7 @@ html, body {
     color: #222831 !important;
 }
 
+
 /* End of CSS for Project Section */
 
 /* Tools Section */
@@ -400,6 +432,9 @@ footer img{
 
 @media (max-width: 768px){
     #profile{
-        background: #222831;
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .8)), url(./assets/images/background.png);
+        background-repeat: no-repeat;
+        background-position: 30% 30%;
+        background-size: cover;
     }
 }
