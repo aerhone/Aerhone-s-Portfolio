@@ -47,19 +47,19 @@ html, body {
     }
 
     .navIconsTwo{
-        animation: scale .5s ease-in-out 2.2s, pop .2s ease 2.2s forwards;
+        animation: scale .5s ease-in-out 2.5s, pop .2s ease 2.5s forwards;
    
         opacity: 0;
     }
 
     .navIconsThree{
-        animation: scale .5s ease-in-out 2.4s, pop .2s ease 2.4s forwards;
+        animation: scale .5s ease-in-out 3s, pop .2s ease 3s forwards;
      
         opacity: 0;
     }
 
     .navIconsFour{
-        animation: scale .5s ease-in-out 2.6s, pop .2s ease 2.6s forwards;
+        animation: scale .5s ease-in-out 3.5s, pop .2s ease 3.5s forwards;
         opacity: 0;
     }
     
