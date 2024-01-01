@@ -119,9 +119,7 @@ html, body {
     background-attachment: fixed;
 }
 
-#contact{
-    background: #222831;
-}
+
 
 .labelTitle{
     color: #00ADB5;
@@ -241,6 +239,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: 20% 20%;
     background-size: cover;
+    background-attachment: fixed;
 }
 /* Dimension of project container */
 .projectContainer{
@@ -357,6 +356,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: 20% 20%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -367,7 +367,6 @@ html, body {
 }
 
 .toolsContainer {
-
     transition: all 0.5s;
     background: rgba(24, 24, 16, .2);
     backdrop-filter: blur(15px);
@@ -376,7 +375,6 @@ html, body {
     border: 2px solid rgba(255, 255, 255, 0.2);
     background-clip: padding-box;
     box-shadow: 5px 5px 5px rgba(46, 54, 68, .8);
-  
 }
 
 .toolsContent:hover .toolsContainer {
@@ -384,6 +382,15 @@ html, body {
     box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+
+}
+
+.toolsContainer > img {
+    transition: all 0.2s;
+}
+
+.toolsContent:hover .toolsContainer > img{
+    opacity: 0.5;
 }
 
 .toolsContent .toolTitle{
@@ -496,8 +503,16 @@ form textarea{
 .formSubmit:hover {
     background-color: #00ADB5;
     -ms-transform: scale(1.05); /* IE 9 */
-        -webkit-transform: scale(1.05); /* Safari 3-8 */
-        transform: scale(1.05);
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+}
+
+#contact{
+    background: linear-gradient(to bottom right, rgba(57, 62, 70, .3), rgba(57, 62, 70, .3)),url(./assets/images/contactbackground.png);
+    background-repeat: no-repeat;
+    background-position: 95% 100%;
+    background-size: cover;
+    background-color: #222831;
 }
 
 footer img{
@@ -510,5 +525,6 @@ footer img{
         background-repeat: no-repeat;
         background-position: 30% 30%;
         background-size: cover;
+        background-attachment: fixed;
     }
 }
