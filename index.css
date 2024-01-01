@@ -24,7 +24,6 @@ html, body {
         display: grid;
         position: absolute;
         z-index: 10;
-        color: #fff;
         opacity: 0;
         animation: anim 0.75s 1.5s linear forwards;
     }
@@ -40,19 +39,19 @@ html, body {
     }
 
     .navIconsTwo{
-        animation: scale .5s ease-in-out 2.5s, pop .2s ease 2.5s forwards;
+        animation: scale .5s ease-in-out 2.4s, pop .2s ease 2.4s forwards;
    
         opacity: 0;
     }
 
     .navIconsThree{
-        animation: scale .5s ease-in-out 3s, pop .2s ease 3s forwards;
+        animation: scale .5s ease-in-out 2.8s, pop .2s ease 2.8s forwards;
      
         opacity: 0;
     }
 
     .navIconsFour{
-        animation: scale .5s ease-in-out 3.5s, pop .2s ease 3.5s forwards;
+        animation: scale .5s ease-in-out 3.2s, pop .2s ease 3.2s forwards;
         opacity: 0;
     }
     
@@ -86,12 +85,12 @@ html, body {
 
     @keyframes scale {
             from {
-            transform: scale(1);
+            transform: scale(1.5);
             
             
         }
             to {
-            transform: scale(1.2);
+            transform: scale(1);
             
         }
     }
@@ -223,6 +222,16 @@ html, body {
         box-shadow: none;
     }
 /* End of CSS for Whole Timeline */
+
+.storyContainer{
+    background: rgba(24, 24, 16, .2);
+    backdrop-filter: blur(15px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(46, 54, 68, .8);
+}
 
 
 /* CSS for Project Section */
