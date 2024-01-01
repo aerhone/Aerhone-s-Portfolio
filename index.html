@@ -16,14 +16,14 @@
     <link rel="stylesheet" href="./index.css">
 
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#stickyNavBar">
     <!-- Landing Page -->
     <section id="landing" class="hero">
     
     
         <div class="heroContent container vh-100 d-flex flex-column justify-content-center">
              <!-- Name Banner -->
-            <div class="col-md-6 mb-5 text-center text-md-start">
+            <div class="col-md-6 mb-5 text-center text-md-start text-light">
                 <h1 class="display-5 fw-bold  text-light my-0">Engr. Mark Aerhone Paul R. Palma</h1>
                 <p class="my-0"><span class="labelTitle">Full Stack Web Developer</span> | Mechanical Engineer</p>
             </div>
@@ -68,7 +68,7 @@
     <!-- End of Landing Page -->
 
     <!-- Sticky Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top z-3" aria-label="Offcanvas navbar large">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top z-3" aria-label="Offcanvas navbar medium" id="stickyNavBar">
         <div class="container">
             <h5 class="text-light my-0">@aerhone</h5>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburger" aria-controls="hamburger" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
@@ -125,11 +125,11 @@
                         </div>
                         <!-- End of Profie for small screen -->
                         
-                        <!-- Work and Education rounded -->
+                        <!-- Work and Education -->
                         <div class="row" data-aos="fade-up" data-aos-duration="500">
                             <!-- Work Experience -->
                             <div class="col-md-6 border-bottom border-secondary mt-5">
-                                <h3 class="labelTitle pb-3 fw-bold text-break ps-5">Work Experience</h3>
+                                <h3 class="labelTitle pb-3 fw-bold text-break ps-md-5">Work Experience</h3>
                                 <div class="container py-4">
 
                                     <!-- Timeline -->
@@ -266,7 +266,7 @@
 
                             <!-- Educational Background -->
                             <div class="col-md-6 border-bottom border-secondary mt-5">
-                                <h3 class="labelTitle pb-3 fw-bold text-break ps-5" data-aos="fade-up" data-aos-duration="500">Education</h3>
+                                <h3 class="labelTitle pb-3 fw-bold text-break ps-md-5" data-aos="fade-up" data-aos-duration="500">Education</h3>
                                 <div class="container py-4">
 
                                     <!-- Timeline -->
@@ -334,7 +334,7 @@
     <!-- Project Section -->
     <section id="projects" class="d-flex flex-column justify-content-center py-5">
         <div class="container-fluid pb-5">
-            <h2 class="labelTitle pt-3 pb-3 pb-md-5 fw-bold display-4 display-md-3 text-break ps-5" data-aos="fade-right" data-aos-duration="500">My Projects</h2>
+            <h2 class="labelTitle pt-3 pb-3 pb-md-5 fw-bold display-4 display-md-3 text-break ps-md-5" data-aos="fade-right" data-aos-duration="500">My Projects</h2>
 
             <!-- display for medium and up screen -->
             <div class="row d-none d-md-flex" data-aos="fade-up" data-aos-duration="500">
@@ -484,7 +484,7 @@
     <!-- Tools Section -->
     <section id="tools" class="py-5">
         <div class="container-fluid pb-5">
-            <h2 class="labelTitle py-3 fw-bold display-md-3 display-4 text-break ps-5" data-aos="fade-right" data-aos-duration="500">Tools</h2>
+            <h2 class="labelTitle py-3 fw-bold display-md-3 display-4 text-break ps-md-5" data-aos="fade-right" data-aos-duration="500">My Tools</h2>
 
             <!-- Tools display for medium and up -->
             <div class="d-none d-md-block">
@@ -550,7 +550,7 @@
                             <div class="toolsContainer pt-2 pb-5 px-2">
                             <img src="./assets/images/expressphoto.png" class="img-fluid cover-image" />
                             </div>
-                            <h4 class="toolTitle labelTitle">Express</h4>
+                            <h4 class="toolTitle labelTitle">ExpressJS</h4>
                             <img src="./assets/images/express.png" class="img-fluid character" />
                         </div>
                     </div>
@@ -560,7 +560,7 @@
                             <div class="toolsContainer pt-2 pb-5 px-2">
                             <img src="./assets/images/reactphoto.png" class="img-fluid cover-image" />
                             </div>
-                            <h4 class="toolTitle labelTitle">Express</h4> 
+                            <h4 class="toolTitle labelTitle">ReactJS</h4> 
                             <img src="./assets/images/react.png" class="img-fluid character" />
                         </div>
                     </div>
@@ -586,7 +586,7 @@
                         <img src="./assets/images/html.png" class="img-fluid" />
                     </div>
                     <div class="col-8 d-flex justify-content-center align-items-center">
-                        <h4 class="labelTitle">HTML 5</h4>   
+                        <h4 class="labelTitle text-break">HTML 5</h4>   
                     </div>
                 </div>
 
@@ -595,7 +595,7 @@
                         <img src="./assets/images/css.png" class="img-fluid" />
                     </div>
                     <div class="col-8 d-flex justify-content-center align-items-center">
-                        <h4 class="labelTitle">CSS 3</h4>   
+                        <h4 class="labelTitle text-break">CSS 3</h4>   
                     </div>
                 </div>
                 <div id="jsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
@@ -603,7 +603,7 @@
                         <img src="./assets/images/js.png" class="img-fluid" />
                     </div>
                     <div class="col-8 d-flex justify-content-center align-items-center">
-                        <h4 class="labelTitle">Javascript</h4>   
+                        <h4 class="labelTitle text-break">Javascript</h4>   
                     </div>
                 </div>
                 <div id="bsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
@@ -611,7 +611,7 @@
                         <img src="./assets/images/bootstrap.png" class="img-fluid" />
                     </div>
                     <div class="col-8 d-flex justify-content-center align-items-center">
-                        <h4 class="labelTitle">Bootstrap</h4>   
+                        <h4 class="labelTitle text-break">Bootstrap</h4>   
                     </div>
                 </div>
                 <div id="mongoContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
@@ -619,7 +619,7 @@
                         <img src="./assets/images/mongodb.png" class="img-fluid" />
                     </div>
                     <div class="col-8 d-flex justify-content-center align-items-center">
-                        <h4 class="labelTitle">MongoDB</h4>   
+                        <h4 class="labelTitle text-break">MongoDB</h4>   
                     </div>
                 </div>
                 <div id="ejsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
@@ -627,7 +627,7 @@
                         <img src="./assets/images/express.png" class="img-fluid" />
                     </div>
                     <div class="col-8 d-flex justify-content-center align-items-center">
-                        <h4 class="labelTitle">ExpressJS</h4>   
+                        <h4 class="labelTitle text-break">ExpressJS</h4>   
                     </div>
                 </div>
                 <div id="rjsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
@@ -635,7 +635,7 @@
                         <img src="./assets/images/react.png" class="img-fluid toolIcons" />
                     </div>
                     <div class="col-8 d-flex justify-content-center align-items-center">
-                        <h4 class="labelTitle">ReactJS</h4>   
+                        <h4 class="labelTitle text-break">ReactJS</h4>   
                     </div>
                 </div>
                 <div id="njsContainer" class="d-flex smallToolContainer rounded p-2 my-2" data-aos="fade-up" data-aos-duration="500">
@@ -643,7 +643,7 @@
                         <img src="./assets/images/node js.png" class="img-fluid toolIcons" />
                     </div>
                     <div class="col-8 d-flex justify-content-center align-items-center">
-                        <h4 class="labelTitle">NodeJS</h4>   
+                        <h4 class="labelTitle text-break">NodeJS</h4>   
                     </div>
                 </div>
             </div>
@@ -657,24 +657,24 @@
     <!-- Contact Section -->
     <section id="contact" class="py-5">
         <div class="container-fluid">
-            <h2 class="labelTitle py-3 fw-bold display-md-3 display-4 text-break ps-5" data-aos="fade-right" data-aos-duration="500">Contact Me</h2>
+            <h2 class="labelTitle py-3 fw-bold display-md-3 display-4 text-break ps-md-5" data-aos="fade-right" data-aos-duration="500">Contact Me</h2>
             <div class="container d-flex flex-column flex-md-row">
                 <form action="mailto:markaerhonepaul@gmail.com" class="col-md-6 text-light formContainer p-2 mb-3 rounded" data-aos="fade-up" data-aos-duration="500">
                     <div class="mb-3">
                         <label for="Name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="Name" placeholder="Enter Your Name">
+                        <input type="text" class="form-control" id="Name" placeholder="Enter Your Name" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" placeholder="Enter Your Messsage"></textarea>
+                        <textarea class="form-control" id="message" placeholder="Enter Your Messsage" required></textarea>
                     </div>
-                    <div class="col-6">
+                    <div class="col-auto">
                         <button type="submit" class="btn col-6 formSubmit text-light">Submit</button>
-                      </div>
+                    </div>
                 </form>
 
                 <div class="contactContainer col-md-6 p-2 text-light flex-column" data-aos="fade-up" data-aos-duration="500">
@@ -706,18 +706,18 @@
                     <div class="d-flex flex-column mb-3 align-items-center">
                         <p class="mb-2">Socials</p>
                         <div>
-                            <div class="d-flex col-4 gap-2 offset-4">
+                            <div class="d-flex col-6 offset-3">
  
-                                <div>
+                                <div class="p-1">
                                     <a href="https://www.linkedin.com/in/aerhonepalma" target="_blank"><img src="./assets/images/linked.png" class="img-fluid my-3 hover" alt="linked in icon"></a>
                                 </div>
-                                <div>
+                                <div class="p-1">
                                     <a href="https://www.facebook.com/aerhonepalma" target="_blank"><img src="./assets/images/fb.png" class="img-fluid my-3 hover" alt="facebook icon"></a>
                                 </div>
-                                <div>
+                                <div class="p-1">
                                     <a href="https://www.instagram.com/aerhone" target="_blank"><img src="./assets/images/ig.png" class="img-fluid my-3 hover" alt="instagram icon"></a>
                                 </div>
-                                <div>
+                                <div class="p-1">
                                     <a href="mailto:markaerhonepaul@gmail.com" target="_blank"><img src="./assets/images/mail.png" class="img-fluid my-3 hover" alt="gmail icon"></a>
                                 </div>
                             </div>
