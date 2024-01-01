@@ -508,7 +508,7 @@ form textarea{
 }
 
 #contact{
-    background: linear-gradient(to bottom right, rgba(57, 62, 70, .3), rgba(57, 62, 70, .3)),url(./assets/images/contactbackground.png);
+    background: url(./assets/images/contactbackground.png);
     background-repeat: no-repeat;
     background-position: 95% 100%;
     background-size: cover;
