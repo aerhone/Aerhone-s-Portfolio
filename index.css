@@ -111,18 +111,20 @@ html, body {
 /* End of Hover */
 
 #profile{
-    background:  url(./assets/images/aboutme.png);
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
     background-color: #222831;
-    background-size: contain;
-    background-attachment: fixed;
 }
 
 
 
 .labelTitle{
     color: #00ADB5;
+}
+
+.offcanvasContainer{
+    background: rgba(24, 24, 16, .2);
+    backdrop-filter: blur(15px);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* The whole timeline container */
@@ -163,10 +165,7 @@ html, body {
     }
 
     .workContainer{
-        /* background-color: rgba(57, 62, 70, .5); */
         background: rgba(24, 24, 16, .2);
-        /* border-radius: 10px;
-        transition: 0.4s ease-out */
         background: rgba(24, 24, 16, .2);
         backdrop-filter: blur(15px);
         background-size: cover;
@@ -481,6 +480,15 @@ html, body {
 /* End of CSS for Tools Section */
 
 /* CSS for Contact */
+
+#contact{
+    background: url(./assets/images/contactbackground.png);
+    background-repeat: no-repeat;
+    background-position: 95% 100%;
+    background-size: cover;
+    background-color: #222831;
+}
+
 .formContainer{
     background: rgba(24, 24, 16, .2);
     backdrop-filter: blur(15px);
@@ -507,24 +515,13 @@ form textarea{
     transform: scale(1.05);
 }
 
-#contact{
-    background: url(./assets/images/contactbackground.png);
-    background-repeat: no-repeat;
-    background-position: 95% 100%;
-    background-size: cover;
-    background-color: #222831;
-}
-
 footer img{
     max-height: 20px;
 }
 
-@media (max-width: 768px){
-    #profile{
-        background: linear-gradient(to bottom right, rgba(0, 0, 0, .3), rgba(0, 0, 0, .8)), url(./assets/images/background.png);
-        background-repeat: no-repeat;
-        background-position: 30% 30%;
-        background-size: cover;
-        background-attachment: fixed;
-    }
+footer{
+    background: rgba(24, 24, 16, .2);
+    backdrop-filter: blur(15px);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
