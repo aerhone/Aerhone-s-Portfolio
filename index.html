@@ -33,25 +33,24 @@
             <div class="col-md-6 col-6 offset-3 offset-md-0 text-light d-inline-flex flex-wrap">
                     
                 <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsOne">
-                    <a class="text-decoration-none text-white text-center" href="#profile">
-                        <img class="img-fluid w-50" src="./assets/images/profile.png" alt="profile icon">
-                        <p>Profile</p>
-                    </a>  
-                </div>
-            
-            
-                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsTwo">
                     <a class="text-decoration-none text-white text-center" href="#projects">
                         <img class="img-fluid w-50" src="./assets/images/project.png" alt="project icon">
                         <p>Projects</p>
                     </a>
                 </div>  
             
-                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsThree">
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsTwo">
                     <a class="text-decoration-none text-white text-center" href="#tools">
                         <img class="img-fluid w-50" src="./assets/images/tools.png" alt="tools icon">
                         <p>Tools</p>
                     </a>    
+                </div>
+
+                <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsThree">
+                    <a class="text-decoration-none text-white text-center" href="#profile">
+                        <img class="img-fluid w-50" src="./assets/images/profile.png" alt="profile icon">
+                        <p>Profile</p>
+                    </a>  
                 </div>
        
                 <div class="py-2 hover col-md-3 col-6 d-flex justify-content-center navIconsFour">
@@ -73,18 +72,41 @@
             <h5 class="text-light my-0">@aerhone</h5>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburger" aria-controls="hamburger" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="hamburger" aria-labelledby="hamburgerLabel">
+            <div class="offcanvas offcanvas-start offcanvasContainer" tabindex="-1" id="hamburger" aria-labelledby="hamburgerLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="hamburgerLabel">@aerhone</h5>
+                    <h5 class="offcanvas-title text-light" id="hamburgerLabel">@aerhone</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <div class="d-md-none border-bottom">
+                        <div class="col-6 offset-3">
+                            <img src="./assets/images/profilepicture.jpeg" class="img-fluid rounded-circle hover">
+                           
+                        </div>
+
+                        <h4 class="text-light text-center mb-0 pt-2">
+                            Aerhone Palma
+                        </h4>
+                        
+                        <div class="d-flex col-6 offset-3">
+ 
+                            <div class="p-1">
+                                <a href="https://www.linkedin.com/in/aerhonepalma" target="_blank"><img src="./assets/images/linked.png" class="img-fluid my-3 hover" alt="linked in icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="https://www.facebook.com/aerhonepalma" target="_blank"><img src="./assets/images/fb.png" class="img-fluid my-3 hover" alt="facebook icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="https://www.instagram.com/aerhone" target="_blank"><img src="./assets/images/ig.png" class="img-fluid my-3 hover" alt="instagram icon"></a>
+                            </div>
+                            <div class="p-1">
+                                <a href="mailto:markaerhonepaul@gmail.com" target="_blank"><img src="./assets/images/mail.png" class="img-fluid my-3 hover" alt="gmail icon"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
                         <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="https://aerhone.github.io/Aerhone-s-Portfolio/">Home</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#profile">Profile</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#projects">Projects</a>
@@ -92,6 +114,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#tools">Tools</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profile">Profile</a>
+                            </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
@@ -101,235 +126,6 @@
         </div>
     </nav>
     <!-- End of Sticky Nav Bar -->
-
-     <!-- Profile Section -->
-    <section id="profile" class="my-0 py-5 pt-md-0">
-        <div class="container-fluid">
-            <div class="d-flex">
-                <!-- Profile Information -->
-                <div class="col-md-12 p-3">
-                    
-                    <div class="my-3 text-light">
-
-                        <!-- Profile for small screen below only -->
-                        <div class="d-md-none border-bottom border-secondary mb-3">
-                            <div class="text-center" data-aos="zoom-in" data-aos-duration="500">
-                                <img src="./assets/images/aerhone-half.png" alt="aerhone photo" class="img-fluid w-50 mb-3 mx-auto">
-                            </div>
-                            
-                            <div data-aos="fade-up" data-aos-duration="500">
-                                <p class="pb-0 mb-0">Hello! I am</p>
-                                <h2 class="labelTitle pt-0 mt-0">Engr. Mark Aerhone Paul R. Palma</h2>
-                                <p class="pt-0 mt-0">A Mechanical Engineer who codes!<p>
-                            </div>
-                        </div>
-                        <!-- End of Profie for small screen -->
-                        
-                        <!-- Work and Education -->
-                        <div class="row" data-aos="fade-up" data-aos-duration="500">
-                            <!-- Work Experience -->
-                            <div class="col-md-6 border-bottom border-secondary mt-5">
-                                <h3 class="labelTitle pb-3 fw-bold text-break ps-md-5">Work Experience</h3>
-                                <div class="container py-4">
-
-                                    <!-- Timeline -->
-                                    <div class="main-timeline">
-
-                                        <!-- Globalland -->
-                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
-                                            <div class="workContainer rounded">
-                                                <div class="accordion" id="accordionGloballandOne">
-                                                    <div class="accordion-item border border-0">
-                                                        <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                            July 2022 to October 2023
-                                                        </button>
-                                                        </h2>
-                                                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionGloballandOne">
-                                                        <div class="accordion-body border border-0">
-                                                            <h4 class="labelTitle text-break">Globalland Property Management, Inc.</h4>
-                                                            <ul>
-                                                                <li>Property Manager (Sep. 2023 - Oct. 2023)</li>
-                                                                <li>Building Engineer (May 2023 - Sep 2023)</li>
-                                                                <li>Procurement Engineer (Jul. 2022 - May 2023)</li>
-                                                            </ul>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                </div>        
-                                            </div>
-                                        </div>
-                                        <!-- End of Globalland -->
-
-                                        <!-- GlobalFME -->
-                                        <div class="timeline right" data-aos="fade-up"  data-aos-duration="500">
-                                            <div class="workContainer rounded">
-                                                <div class="accordion" id="accordionGlobalFME">
-                                                    <div class="accordion-item border border-0">
-                                                        <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                            August 2019 to July 2022
-                                                        </button>
-                                                        </h2>
-                                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionGlobalFME">
-                                                        <div class="accordion-body border border-0">
-                                                            <h4 class="labelTitle text-break">Global Facilities Management Experts, Inc.</h4>
-                                                            <ul>
-                                                                <li>Facilities Engineer - Mechanical Works (Aug. 2019 - Jul. 2022)</li>
-                                                                <li>Facilities Engineer - POM Operations (May 2022 - Jul. 2022)</li>
-                                                            </ul>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                </div>     
-                                            </div>
-                                        </div>
-                                        <!-- End of GlobalFME -->
-
-                                        <!-- Globalland -->
-                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
-                                            <div class="workContainer rounded">
-                                                <div class="accordion" id="accordionGloballandTwo">
-                                                    <div class="accordion-item border border-0">
-                                                        <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                                            August 2017 to August 2019
-                                                        </button>
-                                                        </h2>
-                                                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionGloballandTwo">
-                                                        <div class="accordion-body border border-0">
-                                                            <h4 class="labelTitle text-break">Globalland Property Management, Inc.</h4>
-                                                            <ul>
-                                                                <li>Team Leader(Apr. 2018 - Aug. 2019)</li>
-                                                                <li>Building Engineer (Aug. 2017 - Aug. 2019)</li>
-                                                            </ul>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End of Globalland -->
-
-                                        <!-- Lamoiyan -->
-                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
-                                            <div class="workContainer rounded">
-                                                <div class="accordion" id="accordionLamoiyan">
-                                                    <div class="accordion-item border border-0">
-                                                        <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                                            February 2017 to August 2017
-                                                        </button>
-                                                        </h2>
-                                                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionLamoiyan">
-                                                        <div class="accordion-body border border-0">
-                                                            <h4 class="labelTitle text-break">Lamoiyan Corpoaration</h4>
-                                                            <ul>
-                                                                <li>Cadet Engineer</li>
-                                                            </ul>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End of Lampoiyan -->
-
-                                        <!-- Frey-fil -->
-                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
-                                            <div class="workContainer rounded">
-                                                <div class="accordion" id="accordionFreyFil">
-                                                    <div class="accordion-item border border-0">
-                                                        <h2 class="accordion-header">
-                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                                            November 2016 to February 2017
-                                                        </button>
-                                                        </h2>
-                                                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFreyFil">
-                                                        <div class="accordion-body border border-0">
-                                                            <h4 class="labelTitle text-break">Frey-Fil Corporation</h4>
-                                                            <ul>
-                                                                <li>Cadet Engineer</li>
-                                                            </ul>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End of Frey Fil -->
-                                    </div>
-                                    <!-- End of Timeline -->
-                                </div>
-                            </div>
-                            <!-- End of Work Experience -->
-
-                            <!-- Educational Background -->
-                            <div class="col-md-6 border-bottom border-secondary mt-5">
-                                <h3 class="labelTitle pb-3 fw-bold text-break ps-md-5" data-aos="fade-up" data-aos-duration="500">Education</h3>
-                                <div class="container py-4">
-
-                                    <!-- Timeline -->
-                                    <div class="main-timeline">
-
-                                        <!-- bootcamp -->
-                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
-                                            <div class="workContainer p-2 rounded">
-                                                2024
-                                                <h4 class="labelTitle">Full Stack Web Dev Bootcamp</h4>
-                                                Zuitt Coding Bootcamp
-                                            </div>
-                                        </div>
-                                        <!-- End of bootcamp -->
-
-                                        <!-- PRC -->
-                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
-                                            <div class="workContainer p-2 rounded">
-                                                September 2016
-                                                <h4 class="labelTitle">Registered Mechanical Engineer</h4>
-                                                Proffesional Regulation Commission
-                                            </div>
-                                        </div>
-                                        <!-- End of PRC -->
-
-                                        <!-- College -->
-                                        <div class="timeline right" data-aos="fade-up"  data-aos-duration="500">
-                                            <div class="workContainer p-2 rounded">
-                                                2011-2016
-                                                <h4 class="labelTitle">Bachelor of Science in Mechanical Engineering</h4>
-                                                Bulacan State University
-                                            </div>
-                                        </div>
-                                        <!-- End of College -->
-                                    </div>
-                                    <!-- End of Timeline -->
-                                </div>
-                            </div>
-                            <!-- End of Educational Background -->
-                        </div>
-                        <!-- Story -->
-                        <div class="d-flex flex-md-row flex-nowrap myStory pt-5 myStory">
-                            <div class="col-md-8 offset-md-4 storyContainer p-2 rounded" data-aos="fade-up" data-aos-duration="500">
-                                <div class="rounded p-2 text-light" >
-                                    <h3 class="labelTitle pb-3 fw-bold text-break">My Story</h3>
-                                    <div>
-                                        <p>Hello there! I'm Aerhone, a multifaceted individual with a passion for continuous learning and diverse experiences. Let me take you on a journey through my professional and personal endeavors.</p>
-        
-                                        <p>In 2016, I proudly graduated with a degree in Mechanical Engineering and acquired my engineering license, marking the beginning of my journey in the world of property management. Over the years, I've worn various hats in this field, taking on roles such as Building Engineer, Project Engineer, Procurement Engineer, and ultimately evolving into a Property Manager.</p>
-        
-                                        <p>Despite finding success in this field, my passion for technology and the ever-evolving world of web development beckoned. By year 2023, in pursuit of this passion, I took a leap of faith, quitting my job to immerse myself in the world of coding and development. It's been a thrilling ride, and I'm excited about the endless possibilities that lie ahead.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Story -->
-                    </div>
-                </div>
-                <!-- End of Profile Information -->   
-            </div>
-        </div>
-    </section>
-    <!-- End of Profile Section -->
 
     <!-- Project Section -->
     <section id="projects" class="d-flex flex-column justify-content-center py-5">
@@ -653,6 +449,235 @@
 
     </section>
     <!-- End of Tools Section -->
+
+    <!-- Profile Section -->
+    <section id="profile" class="my-0 py-5 pt-md-0">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <!-- Profile Information -->
+                <div class="col-md-12 p-3">
+                    
+                    <div class="my-3 text-light">
+
+                        <!-- Profile for small screen below only -->
+                        <div class="d-md-none border-bottom border-secondary mb-3">
+                            <div class="text-center" data-aos="zoom-in" data-aos-duration="500">
+                                <img src="./assets/images/aerhone-half.png" alt="aerhone photo" class="img-fluid w-50 mb-3 mx-auto">
+                            </div>
+                            
+                            <div data-aos="fade-up" data-aos-duration="500">
+                                <p class="pb-0 mb-0">Hello! I am</p>
+                                <h2 class="labelTitle pt-0 mt-0">Engr. Mark Aerhone Paul R. Palma</h2>
+                                <p class="pt-0 mt-0">A Mechanical Engineer who codes!<p>
+                            </div>
+                        </div>
+                        <!-- End of Profie for small screen -->
+                        
+                        <!-- Work and Education -->
+                        <div class="row" data-aos="fade-up" data-aos-duration="500">
+                            <!-- Work Experience -->
+                            <div class="col-md-6 border-bottom border-secondary mt-5">
+                                <h3 class="labelTitle pb-3 fw-bold text-break ps-md-5">Work Experience</h3>
+                                <div class="container py-4">
+
+                                    <!-- Timeline -->
+                                    <div class="main-timeline">
+
+                                        <!-- Globalland -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionGloballandOne">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                            July 2022 to October 2023
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionGloballandOne">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Globalland Property Management, Inc.</h4>
+                                                            <ul class="text-break">
+                                                                <li>Property Manager (Sep. 2023 - Oct. 2023)</li>
+                                                                <li>Building Engineer (May 2023 - Sep 2023)</li>
+                                                                <li>Procurement Engineer (Jul. 2022 - May 2023)</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>        
+                                            </div>
+                                        </div>
+                                        <!-- End of Globalland -->
+
+                                        <!-- GlobalFME -->
+                                        <div class="timeline right" data-aos="fade-up"  data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionGlobalFME">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                            August 2019 to July 2022
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionGlobalFME">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Global Facilities Management Experts, Inc.</h4>
+                                                            <ul class="text-break">
+                                                                <li>Facilities Engineer - Mechanical Works (Aug. 2019 - Jul. 2022)</li>
+                                                                <li>Facilities Engineer - POM Operations (May 2022 - Jul. 2022)</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>     
+                                            </div>
+                                        </div>
+                                        <!-- End of GlobalFME -->
+
+                                        <!-- Globalland -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionGloballandTwo">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                            August 2017 to August 2019
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionGloballandTwo">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Globalland Property Management, Inc.</h4>
+                                                            <ul class="text-break">
+                                                                <li>Team Leader(Apr. 2018 - Aug. 2019)</li>
+                                                                <li>Building Engineer (Aug. 2017 - Aug. 2019)</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End of Globalland -->
+
+                                        <!-- Lamoiyan -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionLamoiyan">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                            February 2017 to August 2017
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionLamoiyan">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Lamoiyan Corpoaration</h4>
+                                                            <ul class="text-break">
+                                                                <li>Cadet Engineer</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End of Lampoiyan -->
+
+                                        <!-- Frey-fil -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer rounded">
+                                                <div class="accordion" id="accordionFreyFil">
+                                                    <div class="accordion-item border border-0">
+                                                        <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                                            November 2016 to February 2017
+                                                        </button>
+                                                        </h2>
+                                                        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFreyFil">
+                                                        <div class="accordion-body border border-0">
+                                                            <h4 class="labelTitle text-break">Frey-Fil Corporation</h4>
+                                                            <ul class="text-break">
+                                                                <li>Cadet Engineer</li>
+                                                            </ul>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End of Frey Fil -->
+                                    </div>
+                                    <!-- End of Timeline -->
+                                </div>
+                            </div>
+                            <!-- End of Work Experience -->
+
+                            <!-- Educational Background -->
+                            <div class="col-md-6 border-bottom border-secondary mt-5">
+                                <h3 class="labelTitle pb-3 fw-bold text-break ps-md-5" data-aos="fade-up" data-aos-duration="500">Education</h3>
+                                <div class="container py-4">
+
+                                    <!-- Timeline -->
+                                    <div class="main-timeline">
+
+                                        <!-- bootcamp -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer p-2 rounded">
+                                                2024
+                                                <h4 class="labelTitle">Full Stack Web Dev Bootcamp</h4>
+                                                Zuitt Coding Bootcamp
+                                            </div>
+                                        </div>
+                                        <!-- End of bootcamp -->
+
+                                        <!-- PRC -->
+                                        <div class="timeline right" data-aos="fade-up" data-aos-duration="500">
+                                            <div class="workContainer p-2 rounded">
+                                                September 2016
+                                                <h4 class="labelTitle">Registered Mechanical Engineer</h4>
+                                                Proffesional Regulation Commission
+                                            </div>
+                                        </div>
+                                        <!-- End of PRC -->
+
+                                        <!-- College -->
+                                        <div class="timeline right" data-aos="fade-up"  data-aos-duration="500">
+                                            <div class="workContainer p-2 rounded">
+                                                2011-2016
+                                                <h4 class="labelTitle">Bachelor of Science in Mechanical Engineering</h4>
+                                                Bulacan State University
+                                            </div>
+                                        </div>
+                                        <!-- End of College -->
+                                    </div>
+                                    <!-- End of Timeline -->
+                                </div>
+                            </div>
+                            <!-- End of Educational Background -->
+                        </div>
+                        <!-- Story -->
+                        <div class="d-flex flex-md-row flex-nowrap myStory pt-5 myStory">
+                            <div class="col-md-8 offset-md-4 storyContainer p-2 rounded" data-aos="fade-up" data-aos-duration="500">
+                                <div class="rounded p-2 text-light" >
+                                    <h3 class="labelTitle pb-3 fw-bold text-break">My Story</h3>
+                                    <div>
+                                        <p>Hello there! I'm Aerhone, a multifaceted individual with a passion for continuous learning and diverse experiences. Let me take you on a journey through my professional and personal endeavors.</p>
+        
+                                        <p>In 2016, I proudly graduated with a degree in Mechanical Engineering and acquired my engineering license, marking the beginning of my journey in the world of property management. Over the years, I've worn various hats in this field, taking on roles such as Building Engineer, Project Engineer, Procurement Engineer, and ultimately evolving into a Property Manager.</p>
+        
+                                        <p>Despite finding success in this field, my passion for technology and the ever-evolving world of web development beckoned. By year 2023, in pursuit of this passion, I took a leap of faith, quitting my job to immerse myself in the world of coding and development. It's been a thrilling ride, and I'm excited about the endless possibilities that lie ahead.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Story -->
+                    </div>
+                </div>
+                <!-- End of Profile Information -->   
+            </div>
+        </div>
+    </section>
+    <!-- End of Profile Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="py-5">
